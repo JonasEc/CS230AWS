@@ -1,0 +1,27 @@
+Simple w/o DataAugment:
+loss: 0.0978 - accuracy: 0.9585 - val_loss: 0.9211 - val_accuracy: 0.8609
+
+
+Simple w DataAugment:
+loss: 0.4538 - accuracy: 0.8289 - val_loss: 0.5781 - val_accuracy: 0.8734
+
+
+Simple w/o DataAugment with Transfer from Synthetic (97.0% val acc):
+loss: 0.7862 - accuracy: 0.7049 - val_loss: 0.6187 - val_accuracy: 0.8453
+
+
+Simple w DataAugment with Transfer from Synthetic (97.0% val acc):
+loss: 1.6187 - accuracy: 0.4892 - val_loss: 0.6499 - val_accuracy: 0.8406
+
+
+Big w/o DA w T from Synth (97.6% val acc):
+loss: 0.9372 - accuracy: 0.6619 - val_loss: 1.1915 - val_accuracy: 0.7078
+
+
+Simple mixing Real and Synth data:
+loss: 0.0176 - accuracy: 0.9950 - val_loss: 0.5848 - val_accuracy: 0.9031
+
+
+Simple mixing Real and Synth data w DataAugment:
+loss: 0.0176 - accuracy: 0.9950 - val_loss: 0.5848 - val_accuracy: 0.9031
+
